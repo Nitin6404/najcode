@@ -26,7 +26,7 @@ const Hero = () => {
                     <span className="text-2xl h-full">0.1% of women-founded creative agencies</span>
                 </div>
             </div>
-            <div className="flex justify-center items-end text-white text-[16rem] leading-[1.2] font-monument-bold">
+            <div className="flex justify-center items-end text-white text-[16rem] leading-[1.4] font-monument-bold">
                 <span>NAJCODE</span>
             </div>
         </section>
