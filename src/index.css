@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@font-face {
+    font-family: 'Monument Extended Light';
+    src: url('./assets/PPMonumentExtended-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monument Extended Regular';
+    src: url('./assets/PPMonumentExtended-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monument Extended Bold';
+    src: url('./assets/PPMonumentExtended-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-monument {
+    font-family: 'Monument Extended Regular', sans-serif;
+}
+
+.font-monument-light {
+    font-family: 'Monument Extended Light', sans-serif;
+}
+
+.font-monument-bold {
+    font-family: 'Monument Extended Bold', sans-serif;
+}
+
+html {
+    font-size: 1vw;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
