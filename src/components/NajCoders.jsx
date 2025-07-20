@@ -1,6 +1,7 @@
 import { ArrowDownLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
+import ScrollRevealText from "./ui/ScrollRevealText";
 
 const NajCoders = () => {
     const scrollRef = useRef(null);
@@ -90,8 +91,22 @@ const NajCoders = () => {
                 <h1
                     className="text-6xl w-[70%] mx-auto transition-colors duration-200"
                 >
+                    <ScrollRevealText
+                        baseOpacity={10}
+                        enableBlur={true}
+                        baseRotation={5}
+                        blurStrength={10}
+                        rotationEnd="bottom bottom"
+                        wordAnimationEnd="bottom bottom"
+                    >
 
-                    We’re here to influence the creative industry to become one that <span className="text-[#92ff4b]">truly cares</span> about people, showing that it works.
+                        We’re here to influence the creative
+                        industry to become one that truly cares
+                        about people, showing that it works.
+                        {/* When does a man die? When he is hit by a bullet? No! When he suffers a disease?
+                        No! When he ate a soup made out of a poisonous mushroom?
+                        No! A man dies when he is forgotten! */}
+                    </ScrollRevealText>
                 </h1>
             </div>
         </div>
